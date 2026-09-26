@@ -1,17 +1,17 @@
 import React from "react";
-import { TodoHeader } from "../TodoHeader/index.js";
-import { TodoSearch } from "../TodoSearch/index.js";
-import { TodoCounter } from "../TodoCounter/index.js";
-import { TodoList } from "../TodoList/index.js";
-import { TodoItem } from "../TodoItem/index.js";
-import { Modal } from "../Modal/index.js";
-import { CreateTodoButtom } from "../CreateTodoButtom/index.js";
-import { TodoForm } from "../TodoForm/index.js";
-import { useTodos } from "./useTodos.js";
-import { TodosLoading } from "../TodosLoading/index.js";
+import { TodoHeader } from "../TodoHeader";
+import { TodoSearch } from "../TodoSearch";
+import { TodoCounter } from "../TodoCounter";
+import { TodoList } from "../TodoList";
+import { TodoItem } from "../TodoItem";
+import { Modal } from "../Modal";
+import { CreateTodoButtom } from "../CreateTodoButtom";
+import { TodoForm } from "../TodoForm";
+import { useTodos } from "./useTodos";
+import { TodosLoading } from "../TodosLoading";
 import { EmptyTodos } from "../EmptyTodos";
 import { TodosError } from "../TodosError";
-import { ChangeAlertWithStorageListener } from "../ChangeAlert/index.js";
+import { ChangeAlertWithStorageListener } from "../ChangeAlert";
 
 function App() {
   const {
